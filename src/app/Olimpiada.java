@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Olimpiada {
     public List<Deportista> participantes = new ArrayList<>();
-    public void inscribir(Deportista deportista){
-        this.participantes.add(deportista);
+    public void inscribir(Deportista depor){
+        this.participantes.add(depor);
     }
 }
